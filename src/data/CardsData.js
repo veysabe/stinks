@@ -1,0 +1,60 @@
+const items = [
+    {
+        id: 1,
+        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        name: 'Спортзал "UNDERGROUND"',
+        adress: "Ул. Мира, 5",
+        openTime: "9:00",
+        closeTime: "22:00",
+    },
+    {
+        id: 2,
+        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        name: 'Спортзал "UNDERGROUND"',
+        adress: "Ул. Мира, 5",
+        openTime: "9:00",
+        closeTime: "22:00",
+    },
+    {
+        id: 3,
+        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        name: 'Спортзал "UNDERGROUND"',
+        adress: "Ул. Мира, 5",
+        openTime: "9:00",
+        closeTime: "22:00",
+    },
+    {
+        id: 4,
+        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        name: 'Спортзал "UNDERGROUND"',
+        adress: "Ул. Мира, 5",
+        openTime: "9:00",
+        closeTime: "22:00",
+    },
+    {
+        id: 5,
+        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        name: 'Спортзал "UNDERGROUND"',
+        adress: "Ул. Мира, 5",
+        openTime: "9:00",
+        closeTime: "22:00",
+    },
+    {
+        id: 6,
+        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        name: 'Спортзал "UNDERGROUND"',
+        adress: "Ул. Мира, 5",
+        openTime: "9:00",
+        closeTime: "22:00",
+    },
+    {
+        id: 7,
+        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        name: 'Спортзал "UNDERGROUND"',
+        adress: "Ул. Мира, 5",
+        openTime: "9:00",
+        closeTime: "22:00",
+    },
+]
+
+export default items;

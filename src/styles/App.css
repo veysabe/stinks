@@ -1,58 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
-
-.card-block {
-    display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 1vw;
-	height: 100%;
-	width: 100%;
-}
-
-.card-item {
-    width: 350px;
-    height: 600px;
-    font-family: Montserrat;
-}
-
-.card-item-content {
-    padding: 15px;
-    height: 100%;
+.header {
     display: flex;
-    flex-direction: column;
+    padding: 30px;
     justify-content: space-between;
-}
-
-.card-image {
-    width: 320px;
-    height: 398px;
-}
-
-.card-image img {
-    width: 100%;
-}
-
-.card-name__text {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.card-price {
-    font-size: 32px;
-    font-weight: bolder;
-    margin: 15px 0 15px 0;
-    font-family:  Oswald;
-}
-
-.small-button {
-    margin: 15px 0 15px 0;
-    width: 200px;
-    height: 50px;
-    border-radius: 5px;
-    background: indigo;
-    color: white;
-    font-size: 20px;
-    display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.content-w {
+    margin: 0 auto;
+}
+
+.header__search {
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    padding: 5px;
+    height: 45px;
+    display: flex;
 }

@@ -1,4 +1,7 @@
 import React from 'react';
+import ModalReg from "./ModalReg";
+import ModalSignIn from "./ModalSignIn";
+import Logo from "../img/logo.png";
 
 class Footer extends React.Component {
     render() {
@@ -6,7 +9,7 @@ class Footer extends React.Component {
             <footer className="footer">
                 <div className="footer__inner content_w">
                     <div className="footer__inner-logo">
-                        <img src="https://stinks.ru/local/templates/stinks/resource/img/logo.png" alt="логотип"/>
+                        <img src={Logo} alt="логотип"/>
                     </div>
                     <ul className="footer__menu">
                         <li>
@@ -29,6 +32,8 @@ class Footer extends React.Component {
                         Написать в поддержку
                     </div>
                 </div>
+                <ModalReg />
+                <ModalSignIn />
             </footer>
         );
     }

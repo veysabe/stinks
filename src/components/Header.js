@@ -1,11 +1,12 @@
 import React from 'react';
+import Logo from '../img/logo.png';
 
 class Header extends React.Component {
     render() {
         return(
             <div className="header content_w">
                 <a href="/" className="header__logo">
-                    <img src="https://stinks.ru/local/templates/stinks/resource/img/logo.png" alt="логотип"/>
+                    <img src={Logo} alt="логотип"/>
                 </a>
                 <div className="header__search">
                     <select name="selectCategory" className="selectpicker">

@@ -1,5 +1,4 @@
 import React from "react";
-import $ from 'jquery';
 import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-select/dist/css/bootstrap-select.min.css";

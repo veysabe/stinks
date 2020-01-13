@@ -9,7 +9,7 @@ class Header extends React.Component {
                 </a>
                 <div className="header__search">
                     <select name="selectCategory" className="selectpicker">
-                        <option value="" defaultValue>Любая категория</option>
+                        <option value="">Любая категория</option>
                         <option value="Спорт">Спорт</option>
                         <option value="Красота">Красота</option>
                         <option value="Здоровье">Здоровье</option>

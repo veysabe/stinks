@@ -50,6 +50,22 @@ class ProfileNav extends React.Component {
                     </ul>
                 </div>
             );
+        } else if (this.props.page == "organization") {
+            return(
+                <div className="profile__menu">
+                    <ul className="profile__menu-list">
+                        <li>
+                            <a href="/business" className="profile__menu-list-a">Бизнес</a>
+                        </li>
+                        <li>
+                            <a href="/favorites" className="profile__menu-list-a">Избранное</a>
+                        </li>
+                        <li>
+                            <span className="profile__menu-list-a active">Настройки</span>
+                        </li>
+                    </ul>
+                </div>
+            );
         }
     }
 }

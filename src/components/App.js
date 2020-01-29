@@ -7,6 +7,7 @@ import IndexPage from "./IndexPage";
 import BusinessPage from "./BusinessPage";
 import FavoritesPage from "./FavoritesPage";
 import SettingsPage from "./SettingsPage";
+import OrganizationPage from "./OrganizationPage";
 
 class Nav extends React.Component{
     render(){
@@ -38,6 +39,9 @@ class App extends React.Component {
                     </Route>
                     <Route exact path='/settings'>
                         <SettingsPage />
+                    </Route>
+                    <Route exact path='/organization'>
+                        <OrganizationPage />
                     </Route>
                 </BrowserRouter>
                 <Footer />

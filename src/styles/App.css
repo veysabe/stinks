@@ -398,3 +398,13 @@ a:hover {
     margin: 5px 0;
     width: 500px;
 }
+
+.profile-box__text {
+    resize: none;
+    border: 1px solid #EFEFEF;
+    padding: 11px 15px;
+    width: 500px;
+    border-radius: 5px;
+    margin: 5px 0;
+    height: 150px;
+}

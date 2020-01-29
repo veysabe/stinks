@@ -330,3 +330,71 @@ a:hover {
     flex-wrap: wrap;
     margin-top: 30px;
 }
+
+.navigationDELETE * {
+    display: block;
+}
+
+/* <--------------- FAVORITESPAGE --------------> */
+
+.profile-control {
+    display: flex;
+    align-items: center;
+}
+
+.btn-profile__del {
+    background-color: #005BFF;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 6px 20px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    margin-left: 15px;
+}
+
+.box__content-cart {
+    display: flex;
+    margin: 0 30px 40px 0;
+}
+
+.box__content-cart .box__content-item {
+    margin: 0 0 0 10px;
+}
+
+.profile-box__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* <--------------- FOR HELP --------------> */
+
+.settings-btn {
+    background-color: #005BFF;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 11px 30px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.profile-box__input {
+    border: 1px solid #EFEFEF;
+    padding: 11px 15px;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 500px;
+}

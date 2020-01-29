@@ -1,14 +1,14 @@
 import React from "react";
 import BoxIndex from "./BoxIndex";
 import CardsContent from "./CardsContent";
-import items from "../data/CardsData";
+import items from "../data/IndexCardsData";
 
 class IndexPage extends React.Component {
     render () {
         return(
             <div>
                 <BoxIndex boxText={"Разные услуги"}/>
-                <CardsContent items={items}/>
+                <CardsContent items={items} page={'index'} buttonText={"Записаться"}/>
             </div>
         );
     }

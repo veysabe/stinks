@@ -5,11 +5,13 @@ import Header from "./Header";
 import Footer from "./Footer";
 import IndexPage from "./IndexPage";
 import BusinessPage from "./BusinessPage";
+import FavoritesPage from "./FavoritesPage";
+import SettingsPage from "./SettingsPage";
 
 class Nav extends React.Component{
     render(){
         return (
-            <nav>
+            <nav className="navigationDELETE">
                 <NavLink exact to="/" activeClassName="active">Главная</NavLink>  
                 <NavLink to="/business" activeClassName="active">Бизнес</NavLink>  
                 <NavLink to="/organization" activeClassName="active">Организации</NavLink>
@@ -30,6 +32,12 @@ class App extends React.Component {
                     </Route>
                     <Route exact path='/business'>
                         <BusinessPage />
+                    </Route>
+                    <Route exact path='/favorites'>
+                        <FavoritesPage />
+                    </Route>
+                    <Route exact path='/settings'>
+                        <SettingsPage />
                     </Route>
                 </BrowserRouter>
                 <Footer />

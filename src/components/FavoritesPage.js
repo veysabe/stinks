@@ -1,17 +1,18 @@
 import React from "react";
 import ProfileNav from "./ProfileNav";
 import ProfileContent from "./ProfileContent";
+import FavoritesContent from "./FavoritesContent";
 
-class BusinessPage extends React.Component {
+class FavoritesPage extends React.Component {
     render() {
         return (
             <div className="profile content_w">
-                <ProfileNav page={'business'}/>
-                <ProfileContent />
+                <ProfileNav page={"favorites"}/>
+                <FavoritesContent />
             </div>
 
         );
     }
 }
 
-export default BusinessPage;
+export default FavoritesPage;

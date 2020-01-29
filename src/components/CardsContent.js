@@ -8,13 +8,14 @@ function CardsContent(props) {
             id={item.id}
             name={item.name}
             imgSrc={item.imgSrc}
-            adress={item.adress}
+            address={item.address}
             openTime={item.openTime}
             closeTime={item.closeTime}
+            page={props.page}
         />
     );
     return (
-        <div className="box__content content_wi">
+        <div className={`box__content content_wi ${props.page}`}>
             {cards}
         </div>
     );

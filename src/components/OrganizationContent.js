@@ -1,6 +1,6 @@
 import React from 'react';
-import ProfileInput from './ProfileInput';
-import CardsContent from './CardsContent';
+import Input from './Input';
+import CardsContent from './CardFolder/CardsContent';
 import items from '../data/BusinessCardsData';
 
 class OrganizationContent extends React.Component {
@@ -9,16 +9,16 @@ class OrganizationContent extends React.Component {
             <div className="profile__content">
                 <h1>Организация - {this.props.organizationName}</h1>
                 <div className="profile-box">
-                    <ProfileInput pholder={'Имя'} />
-                    <ProfileInput pholder={'Адрес'} />
-                    <ProfileInput pholder={'Время'} />
-                    <ProfileInput pholder={'Аватар'} />
-                    <ProfileInput pholder={'Фото'} />
+                    <Input pholder={'Имя'} className={"profile-box__input"}/>
+                    <Input pholder={'Адрес'} className={"profile-box__input"}/>
+                    <Input pholder={'Время'} className={"profile-box__input"}/>
+                    <Input pholder={'Аватар'} className={"profile-box__input"}/>
+                    <Input pholder={'Фото'} className={"profile-box__input"}/>
                     <textarea class="profile-box__text" placeholder="Описание организации"></textarea>
                     <div class="settings-btn">
                         Сохранить
                     </div>
-                    <div class="btn-bs">Удалить организацию</div>
+                    <div className="btn-bs">Удалить организацию</div>
                     <CardsContent items={items} page={'business'} />
                 </div>
             </div>

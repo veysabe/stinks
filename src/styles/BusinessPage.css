@@ -1,0 +1,61 @@
+.profile {
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile__menu {
+    background-color: #EFEFEF;
+    width: 250px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    padding: 15px 25px;
+}
+
+.profile__menu-list {
+    padding: 0;
+    margin: 0;
+}
+
+.profile__menu-list li {
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+.profile__menu-list-a {
+    font-size: 16px;
+}
+
+.profile__content {
+    margin-left: 50px;
+}
+
+.profile-box {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-bs {
+    background-color: #005BFF;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 11px 30px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.bs-cart {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.navigationDELETE * {
+    display: block;
+}

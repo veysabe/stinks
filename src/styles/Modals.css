@@ -1,0 +1,74 @@
+.modal-dialog {
+    max-width: 350px;
+}
+
+.modal-header {
+    padding: 20px 25px;
+    border: 0;
+}
+
+.modal-body {
+    padding: 5px 25px;
+}
+
+.modal__sign {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__sign input {
+    border: 1px solid #EFEFEF;
+    padding: 11px 15px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal-body .header__btn-reg {
+    width: 100%;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.btn_reg {
+    margin-bottom: 20px !important;
+}
+
+.ms-alert_error {
+    background-color: #f7b1b1;
+    border: 1px solid #e03434;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px 25px 10px 25px;
+}
+
+.ms-alert_success {
+    background-color: #b1f7b3;
+    border: 1px solid #34e039;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px 25px 10px 25px;
+}
+
+.modal-rec__link {
+    padding: 0 25px 25px 25px;
+}
+
+.modal-rec__link span {
+    color: #00c2a1;
+    cursor: pointer;
+}
+
+.modal__support textarea {
+    resize: none;
+    border: 1px solid #EFEFEF;
+    padding: 11px 15px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    height: 150px;
+}

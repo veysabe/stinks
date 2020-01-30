@@ -1,7 +1,8 @@
 import React from "react";
 import ProfileNav from "./ProfileNav";
-import ProfileContent from "./ProfileContent";
 import FavoritesContent from "./FavoritesContent";
+import '../styles/FavoritesPage.css';
+
 
 class FavoritesPage extends React.Component {
     render() {

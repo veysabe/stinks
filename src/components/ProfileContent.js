@@ -1,7 +1,6 @@
 import React from 'react';
-import prevImage from "../img/preview.png";
 import items from "../data/BusinessCardsData";
-import CardsContent from './CardsContent';
+import CardsContent from './CardFolder/CardsContent';
 
 class ProfileContent extends React.Component {
     render() {

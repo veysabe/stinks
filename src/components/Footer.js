@@ -1,7 +1,10 @@
 import React from 'react';
-import ModalReg from "./ModalReg";
-import ModalSignIn from "./ModalSignIn";
+import ModalReg from "./ModalFolder/ModalReg";
+import ModalSignIn from "./ModalFolder/ModalSignIn";
 import Logo from "../img/logo.png";
+import ModalSupport from './ModalFolder/ModalSupport';
+import ModalAddOrg from './ModalFolder/ModalAddOrg';
+import "../styles/Footer.css";
 
 class Footer extends React.Component {
     render() {
@@ -34,6 +37,8 @@ class Footer extends React.Component {
                 </div>
                 <ModalReg />
                 <ModalSignIn />
+                <ModalSupport />
+                <ModalAddOrg />
             </footer>
         );
     }

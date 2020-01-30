@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileInput from './ProfileInput';
+import Input from './Input';
 
 class SettingsContent extends React.Component {
     render() {
@@ -7,9 +7,9 @@ class SettingsContent extends React.Component {
             <div className="profile__content">
                 <h1>Настройки</h1>
                 <div className="profile-box">
-                    <ProfileInput pholder={'Имя'} />
-                    <ProfileInput pholder={'Телефон'} />
-                    <ProfileInput pholder={'E-Mail'} />
+                    <Input pholder={'Имя'} className={"profile-box__input"}/>
+                    <Input pholder={'Телефон'} className={"profile-box__input"}/>
+                    <Input pholder={'E-Mail'} className={"profile-box__input"}/>
                     <div class="settings-btn">
                         Сохранить
                     </div>

@@ -1,14 +1,14 @@
 import React from "react";
-import Image from "./Image";
+import Image from "../Image";
 import CardInfo from "./CardInfo";
 import CardName from "./CardName";
 import CardAddress from "./CardAddress";
 import CardWorktime from "./CardWorktime";
-import SmallButton from "./SmallButton";
+import SmallButton from "../SmallButton";
 
 class Card extends React.Component {
     render() {
-        if (this.props.page == "index") {
+        if (this.props.page == "index") { // Как отображаются карточки с организациями в зависимости от страницы, на которой они расположены
             return(
                 <div className="box__content-item" id={this.props.id}>
                     <Image 

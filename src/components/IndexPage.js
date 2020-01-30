@@ -1,6 +1,6 @@
 import React from "react";
 import BoxIndex from "./BoxIndex";
-import CardsContent from "./CardsContent";
+import CardsContent from "./CardFolder/CardsContent";
 import items from "../data/IndexCardsData";
 
 class IndexPage extends React.Component {

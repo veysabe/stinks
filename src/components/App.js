@@ -9,7 +9,7 @@ import FavoritesPage from "./FavoritesPage";
 import SettingsPage from "./SettingsPage";
 import OrganizationPage from "./OrganizationPage";
 
-class Nav extends React.Component{
+class Nav extends React.Component {
     render(){
         return (
             <nav className="navigationDELETE">
@@ -21,14 +21,14 @@ class Nav extends React.Component{
     }
 }
 
-class App extends React.Component {
+class App extends React.Component { 
     render () {
         return(
             <div>
-                <Header />
-                <BrowserRouter>
+                <Header /> { /* Объявление хэдера */ }
+                <BrowserRouter> { /* настройка навигации и роутера */ }
                     <Nav />
-                    <Route exact path='/'>
+                    <Route exact path='/'> 
                         <IndexPage />
                     </Route>
                     <Route exact path='/business'>
@@ -44,7 +44,7 @@ class App extends React.Component {
                         <OrganizationPage />
                     </Route>
                 </BrowserRouter>
-                <Footer />
+                <Footer /> { /* Футер */ }
             </div>
         );
     }

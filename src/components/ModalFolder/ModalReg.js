@@ -1,5 +1,6 @@
 import React from "react";
 import $ from "jquery";
+import axios from 'axios';
 
 function onClick(e) {
     e.preventDefault();
@@ -39,11 +40,17 @@ class ModalReg extends React.Component {
             this.state.passwordCheck) {
                 this.setState({successVisibility: ""});
                 this.setState({errorVisibility: "hidden"});
+                const userRegData = { 
+                    name: this.regData.name,
+                    phone: this.regData.phone,
+                    email: this.regData.email,
+                    password: this.regData.password
+                }
             } else {
                 this.setState({successVisibility: "hidden"});
                 this.setState({errorVisibility: ""});
             }
-            console.log(this.regData);
+            
     }
 
     checkNameInput(e) {

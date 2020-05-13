@@ -1,7 +1,7 @@
 const items = [
     {
         id: 1,
-        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        imgSrc: "https://cdn.iconscout.com/icon/premium/png-512-thumb/organisation-1750882-1489277.png",
         name: 'Спортзал "UNDERGROUND"',
         address: "Ул. Мира, 5",
         openTime: "9:00",
@@ -9,7 +9,7 @@ const items = [
     },
     {
         id: 2,
-        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        imgSrc: "https://cdn.iconscout.com/icon/premium/png-512-thumb/organisation-1750882-1489277.png",
         name: 'Спортзал "UNDERGROUND"',
         address: "Ул. Мира, 5",
         openTime: "9:00",
@@ -17,7 +17,7 @@ const items = [
     },
     {
         id: 3,
-        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        imgSrc: "https://cdn.iconscout.com/icon/premium/png-512-thumb/organisation-1750882-1489277.png",
         name: 'Спортзал "UNDERGROUND"',
         address: "Ул. Мира, 5",
         openTime: "9:00",
@@ -25,7 +25,7 @@ const items = [
     },
     {
         id: 4,
-        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        imgSrc: "https://cdn.iconscout.com/icon/premium/png-512-thumb/organisation-1750882-1489277.png",
         name: 'Спортзал "UNDERGROUND"',
         address: "Ул. Мира, 5",
         openTime: "9:00",
@@ -33,7 +33,7 @@ const items = [
     },
     {
         id: 5,
-        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        imgSrc: "https://cdn.iconscout.com/icon/premium/png-512-thumb/organisation-1750882-1489277.png",
         name: 'Спортзал "UNDERGROUND"',
         address: "Ул. Мира, 5",
         openTime: "9:00",
@@ -41,7 +41,7 @@ const items = [
     },
     {
         id: 6,
-        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        imgSrc: "https://cdn.iconscout.com/icon/premium/png-512-thumb/organisation-1750882-1489277.png",
         name: 'Спортзал "UNDERGROUND"',
         address: "Ул. Мира, 5",
         openTime: "9:00",
@@ -49,7 +49,7 @@ const items = [
     },
     {
         id: 7,
-        imgSrc: "https://stinks.ru/local/templates/stinks/resource/img/preview.png",
+        imgSrc: "https://cdn.iconscout.com/icon/premium/png-512-thumb/organisation-1750882-1489277.png",
         name: 'Спортзал "UNDERGROUND"',
         address: "Ул. Мира, 5",
         openTime: "9:00",
